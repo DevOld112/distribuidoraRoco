@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    box-sizing: border-box;
+    font-size: 80%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Globales */
+  body {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 0 auto;
+  }
